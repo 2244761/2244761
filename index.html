@@ -9,26 +9,106 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="nav-bar">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
-    </nav>
-    <section class="hero-section">
-      <div class="wrapper">
-        <div class="hero-section__content">
-          <span>Computer Science Student</span> <br />
-          I am passionate about learning web development and design.
+    <div class="main-container">
+      <!-- <nav class="nav-bar">
+        <ul class="nav-bar__list"></ul>
+        <li class="list__element">
+          <a href="#">Home</a>
+        </li>
+        <li class="list__element">
+          <a href="#">About</a>
+        </li>
+        <li class="list__element">
+          <a href="#">Projects</a>
+        </li>
+        <li class="list__element">
+          <a href="#">Contact</a>
+        </li>
+      </nav> -->
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <img
+          src="res/images/hero-pic.png"
+          alt="A handsome fellow"
+          class="hero-section__picture"
+        />
+        <div class="wrapper">
+          <div class="hero-section__content">
+            <span>Computer Science Student</span> <br />
+            I am passionate about learning web development and design.
+          </div>
+          <div class="hero-section__heading">
+            <!-- <h2 class="heading__firstname">Jazreil Jaron</h2> -->
+            <h1 class="heading__lastname">SABOG</h1>
+          </div>
         </div>
-        <div class="hero-section__heading">
-          <!-- <h2 class="heading__firstname">Jazreil Jaron</h2> -->
-          <h1 class="heading__lastname">SABOG</h1>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section">
+        <h2 class="about-section__heading">
+          An aspiring frontend developer with a passion for innovation and
+          cutting-edge technology
+        </h2>
+        <p class="about-section__subheading">
+          Particularly interested on UI/UX design, web development, and mobile
+          application. I enjoy designing the flow of interaction within the
+          website and intrigue on trying out new technologies to implement.
+        </p>
+      </section>
+
+      <!-- Project Section -->
+      <section class="project-section">
+        <div class="project-section__slider">
+          <div class="slider__item item1">
+            <img src="res/images/barangayconnect1.png" alt="" />
+          </div>
+          <div class="slider__item item2">
+            <img src="res/images/timelens1.png" alt="" />
+          </div>
+          <div class="slider__item item3">
+            <img src="res/images/barangayconnect2.png" alt="" />
+          </div>
+          <div class="slider__item item4">
+            <img src="res/images/curology1.png" alt="" />
+          </div>
+          <div class="slider__item item5">
+            <img src="res/images/barangayconnect1.png" alt="" />
+          </div>
+          <div class="slider__item item6">
+            <img src="res/images/timelens1.png" alt="" />
+          </div>
+          <div class="slider__item item7">
+            <img src="res/images/barangayconnect2.png" alt="" />
+          </div>
+          <div class="slider__item item8">
+            <img src="res/images/curology1.png" alt="" />
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="feature-section">
-      <h2>Features</h2>
-    </section>
+      </section>
+
+      <section class="facts-section"></section>
+
+      <!-- Footer Section -->
+      <section class="footer-section">
+        <div class="top-wrapper">
+          <div class="footer-section__heading">
+            <img src="res/images/footer-image.png" alt="" />
+            <h2>That's all about me. Thanks for stopping by!</h2>
+          </div>
+          <hr />
+          <div class="footer-section__contact">
+            <p>2244761@slu.edu.ph</p>
+          </div>
+        </div>
+        <div class="footer-section__brand">
+          <p>SABOG</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="anti-view-mobile">
+      <h1>It ain't responsive yet bruh</h1>
+    </div>
   </body>
 </html>
