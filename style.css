@@ -156,8 +156,9 @@ body {
     position: relative;
     border-radius: 10px;
     height: 400px;
-    width: -moz-max-content;
-    width: max-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 100%;
   }
   .resource-section__content .content__card h2 {
     position: absolute;
