@@ -9,14 +9,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main-container">
-      <!-- <nav class="nav-bar">
+    <!-- <nav class="nav-bar">
         <ul class="nav-bar__list"></ul>
         <li class="list__element">
           <a href="#">Home</a>
         </li>
         <li class="list__element">
-          <a href="#">About</a>
+          <a href="pages/about.html">About</a>
         </li>
         <li class="list__element">
           <a href="#">Projects</a>
@@ -25,90 +24,121 @@
           <a href="#">Contact</a>
         </li>
       </nav> -->
-      <!-- Hero Section -->
-      <section class="hero-section">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="content-wrapper">
         <img
           src="res/images/hero-pic.png"
           alt="A handsome fellow"
           class="hero-section__picture"
         />
-        <div class="wrapper">
+        <div class="text-wrapper">
           <div class="hero-section__content">
             <span>Computer Science Student</span> <br />
             I am passionate about learning web development and design.
           </div>
           <div class="hero-section__heading">
-            <!-- <h2 class="heading__firstname">Jazreil Jaron</h2> -->
             <h1 class="heading__lastname">SABOG</h1>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- About Section -->
-      <section class="about-section">
-        <h2 class="about-section__heading">
-          An aspiring frontend developer with a passion for innovation and
-          cutting-edge technology
-        </h2>
-        <p class="about-section__subheading">
-          Particularly interested on UI/UX design, web development, and mobile
-          application. I enjoy designing the flow of interaction within the
-          website and intrigue on trying out new technologies to implement.
-        </p>
-      </section>
+    <!-- About Section -->
+    <section class="about-section">
+      <h2 class="about-section__heading">
+        An aspiring frontend developer with a passion for innovation and
+        cutting-edge technology
+      </h2>
+      <p class="about-section__subheading">
+        Particularly interested on UI/UX design, web development, and mobile
+        application. I enjoy designing the flow of interaction within the
+        website and intrigue on trying out new technologies to implement.
+      </p>
+    </section>
 
-      <!-- Project Section -->
-      <section class="project-section">
-        <div class="project-section__slider">
-          <div class="slider__item item1">
-            <img src="res/images/barangayconnect1.png" alt="" />
-          </div>
-          <div class="slider__item item2">
-            <img src="res/images/timelens1.png" alt="" />
-          </div>
-          <div class="slider__item item3">
-            <img src="res/images/barangayconnect2.png" alt="" />
-          </div>
-          <div class="slider__item item4">
-            <img src="res/images/curology1.png" alt="" />
-          </div>
-          <div class="slider__item item5">
-            <img src="res/images/barangayconnect1.png" alt="" />
-          </div>
-          <div class="slider__item item6">
-            <img src="res/images/timelens1.png" alt="" />
-          </div>
-          <div class="slider__item item7">
-            <img src="res/images/barangayconnect2.png" alt="" />
-          </div>
-          <div class="slider__item item8">
-            <img src="res/images/curology1.png" alt="" />
-          </div>
+    <!-- Project Section -->
+    <section class="project-section">
+      <div class="wrapper">
+        <h2>Recent Projects</h2>
+        <h3>(2024 - 2025)</h3>
+      </div>
+      <div class="project-section__slider">
+        <div class="slider__item item1">
+          <a href="pages/about.html"
+            ><img src="res/images/barangayconnect1.png" alt=""
+          /></a>
         </div>
-      </section>
-
-      <section class="facts-section"></section>
-
-      <!-- Footer Section -->
-      <section class="footer-section">
-        <div class="top-wrapper">
-          <div class="footer-section__heading">
-            <img src="res/images/footer-image.png" alt="" />
-            <h2>That's all about me. Thanks for stopping by!</h2>
-          </div>
-          <hr />
-          <div class="footer-section__contact">
-            <p>2244761@slu.edu.ph</p>
-          </div>
+        <div class="slider__item item2">
+          <img src="res/images/timelens1.png" alt="" />
         </div>
-        <div class="footer-section__brand">
-          <p>SABOG</p>
+        <div class="slider__item item3">
+          <img src="res/images/barangayconnect2.png" alt="" />
         </div>
-      </section>
-    </div>
+        <div class="slider__item item4">
+          <img src="res/images/curology1.png" alt="" />
+        </div>
+        <div class="slider__item item5">
+          <img src="res/images/barangayconnect1.png" alt="" />
+        </div>
+        <div class="slider__item item6">
+          <img src="res/images/timelens1.png" alt="" />
+        </div>
+        <div class="slider__item item7">
+          <img src="res/images/barangayconnect2.png" alt="" />
+        </div>
+        <div class="slider__item item8">
+          <img src="res/images/curology1.png" alt="" />
+        </div>
+      </div>
+    </section>
 
-    <div class="anti-view-mobile">
-      <h1>It ain't responsive yet bruh</h1>
-    </div>
+    <!-- Resource Section -->
+    <section class="resource-section">
+      <h2 class="resource-section__heading">Useful Resources</h2>
+      <div class="resource-section__content">
+        <div class="content__card">
+          <a href="https://stacksorted.com/" target="_blank"
+            ><img src="res/images/resource1.png" alt=""
+          /></a>
+          <h2>StackSorted</h2>
+        </div>
+        <div class="content__card">
+          <a href="https://dribbble.com/" target="_blank"
+            ><img src="res/images/resource2.png" alt=""
+          /></a>
+          <h2>Awwwards</h2>
+        </div>
+        <div class="content__card">
+          <a href="https://www.awwwards.com/" target="_blank"
+            ><img src="res/images/resource3.png" alt=""
+          /></a>
+          <h2 class="light-background">Dribbble</h2>
+        </div>
+        <div class="content__card">
+          <a href="https://onepagelove.com/" target="_blank"
+            ><img src="res/images/resource4.png" alt=""
+          /></a>
+          <h2 class="light-background">One Page Love</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section">
+      <div class="top-wrapper">
+        <div class="footer-section__heading">
+          <img src="res/images/footer-image.png" alt="" />
+          <h2>That's all about me. Thanks for stopping by!</h2>
+        </div>
+        <hr />
+        <div class="footer-section__contact">
+          <p>2244761@slu.edu.ph</p>
+        </div>
+      </div>
+      <div class="footer-section__brand">
+        <p>SABOG</p>
+      </div>
+    </section>
   </body>
 </html>
